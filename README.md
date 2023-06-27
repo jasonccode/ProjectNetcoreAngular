@@ -4,11 +4,11 @@ Este proyecto personal consiste en desarrollar una aplicación web utilizando la
 
 A continuación, se mencionan las dependencias utilizadas en el proyecto:
 
-Microsoft.AspNetCore.SpaProxy 7.0.5: Se utiliza para manejar las solicitudes HTTP de un proxy inverso cuando se ejecuta una aplicación Angular y .NET Core juntos.
-Microsoft.EntityFrameworkCore 7.0.5: Se utiliza para acceder a bases de datos con Entity Framework Core.
-Microsoft.EntityFrameworkCore.Design 7.0.5: Se utiliza para generar código de Entity Framework Core, como migraciones de base de datos.
-Npgsql 8.0.0-preview.3: Se utiliza para conectarse a una base de datos PostgreSQL desde .NET Core.
-Npgsql.EntityFrameworkCore.PostgreSQL 7.0.4: Se utiliza para acceder a bases de datos PostgreSQL con Entity Framework Core.
+- Microsoft.AspNetCore.SpaProxy 7.0.5: Se utiliza para manejar las solicitudes HTTP de un proxy inverso cuando se ejecuta una aplicación Angular y .NET Core juntos.
+- Microsoft.EntityFrameworkCore 7.0.5: Se utiliza para acceder a bases de datos con Entity Framework Core.
+- Microsoft.EntityFrameworkCore.Design 7.0.5: Se utiliza para generar código de Entity Framework Core, como migraciones de base de datos.
+- Npgsql 8.0.0-preview.3: Se utiliza para conectarse a una base de datos PostgreSQL desde .NET Core.
+- Npgsql.EntityFrameworkCore.PostgreSQL 7.0.4: Se utiliza para acceder a bases de datos PostgreSQL con Entity Framework Core.
 
 <img width="1358" alt="imagen" src="https://github.com/jasonccode/projectnetcoreangular/assets/105800226/573e5fa8-eca9-443b-ac55-f84994551e49">
 <img width="1358" alt="imagen2" src="https://github.com/jasonccode/projectnetcoreangular/assets/105800226/2ec68f7f-7151-4fb2-83f3-75146d0eb44f">
