@@ -10,3 +10,6 @@ Microsoft.EntityFrameworkCore.Design 7.0.5: Se utiliza para generar código de E
 Npgsql 8.0.0-preview.3: Se utiliza para conectarse a una base de datos PostgreSQL desde .NET Core.
 Npgsql.EntityFrameworkCore.PostgreSQL 7.0.4: Se utiliza para acceder a bases de datos PostgreSQL con Entity Framework Core.
 
+<img width="1358" alt="imagen" src="https://github.com/jasonccode/projectnetcoreangular/assets/105800226/573e5fa8-eca9-443b-ac55-f84994551e49">
+<img width="1358" alt="imagen2" src="https://github.com/jasonccode/projectnetcoreangular/assets/105800226/2ec68f7f-7151-4fb2-83f3-75146d0eb44f">
+<img width="1358" alt="imagen3" src="https://github.com/jasonccode/projectnetcoreangular/assets/105800226/b3cddd9f-91fd-4d0f-a327-398b66e54bd0">
