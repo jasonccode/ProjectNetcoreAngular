@@ -1,0 +1,71 @@
+<div class="row justify-content-center">
+  <div class="col-auto">
+    <table>
+      <thead>
+        <tr>
+          <th><strong>#</strong></th>
+          <th><strong>Total</strong></th>
+          <th><strong>Cantidad</strong></th>
+          <th><strong>Detalles</strong></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let pro of listaPedidos; index as i">
+          <td>
+            <strong> Pedido: {{i}}</strong>
+          </td>
+          <td>
+            El importe del pedido es <strong>{{pro.total}}€</strong>
+          </td>
+          <td>
+            y tiene <strong> {{pro.detallesProductosPedido.length}}</strong> producto/s
+          </td>
+          <td>
+            <button class="btn btn-primary btn-sm" (click)="detalles(i)" id="btnDetalles_{{i}}">
+              +
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<ng-template #myModalInfo let-modal>
+  <div class="modal bg-secondary" tabindex="-1" style="display:block;" role="dialog">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content ">
+        <div class="modal-header">
+          <h5 class="modal-title">Información del pedido</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="modal.close()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <table>
+            <thead>
+              <tr>
+                <th><strong>Producto</strong></th>
+                <th><strong>Cantidad</strong></th>
+                <th><strong>Importe</strong></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let d of listaPedidos[this.detalleAux].detallesProductosPedido; index as i">
+                <td>
+                  {{d.nombreProducto}}&nbsp;
+                </td>
+                <td>
+                  &nbsp;{{d.cantidad}} unidade/s&nbsp;
+                </td>
+                <td>
+                  &nbsp; {{d.importeUnitario}} €
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-template>
