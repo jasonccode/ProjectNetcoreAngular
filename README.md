@@ -2,7 +2,7 @@
  
 Este proyecto personal consiste en desarrollar una aplicación web utilizando las tecnologías de Angular, .NET Core, Entity Framework y SQL Server o PostgreSQL. La aplicación permitirá realizar gestión de pedidos y tendrá una API/REST con autenticación JWT para la seguridad. Además, se implementará la funcionalidad de guardar datos en LocalStorage y se agregarán intercepciones para el manejo de errores y logs. El proyecto incluirá también el diseño y creación de la base de datos y la implementación de transacciones con EF. El objetivo final es construir una aplicación completa y funcional de gestión de pedidos con una interfaz atractiva y una experiencia de usuario satisfactoria.
 
-A continuación, se mencionan las dependencias utilizadas en el proyecto:
+A continuación, se mencionan las dependencias utilizadas en el proyecto: 
 
 - Microsoft.AspNetCore.SpaProxy 7.0.5: Se utiliza para manejar las solicitudes HTTP de un proxy inverso cuando se ejecuta una aplicación Angular y .NET Core juntos.
 - Microsoft.EntityFrameworkCore 7.0.5: Se utiliza para acceder a bases de datos con Entity Framework Core.
