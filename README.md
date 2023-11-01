@@ -1,4 +1,4 @@
-<h1 align="center"><strong> Proyecto de gestión con Angular, .NET Core, Entity Framework y Bases de datos.</strong></h1>
+<h1 align="center"><strong>  Proyecto de gestión con Angular, .NET Core, Entity Framework y Bases de datos.</strong></h1>
  
 Este proyecto personal consiste en desarrollar una aplicación web utilizando las tecnologías de Angular, .NET Core, Entity Framework y SQL Server o PostgreSQL. La aplicación permitirá realizar gestión de pedidos y tendrá una API/REST con autenticación JWT para la seguridad. Además, se implementará la funcionalidad de guardar datos en LocalStorage y se agregarán intercepciones para el manejo de errores y logs. El proyecto incluirá también el diseño y creación de la base de datos y la implementación de transacciones con EF. El objetivo final es construir una aplicación completa y funcional de gestión de pedidos con una interfaz atractiva y una experiencia de usuario satisfactoria.
 
